@@ -1,0 +1,18 @@
+#background{
+    background-image: url(../images/minimalistic_background.png); background-repeat: no-repeat;
+    background-size: auto
+}
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+.body{
+    font-family: 'Indie Flower', cursive;
+    font-size: 10pt;
+    color:black;
+    text-decoration: none;
+}
+.title{
+    font-family: 'Indie Flower', cursive;
+    font-size: 40pt;
+    color:black;
+    text-decoration: none;
+    text-align: center;
+}
