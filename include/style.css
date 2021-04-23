@@ -20,17 +20,18 @@
     text-decoration: none;
     /* text-align: center; */
 }
-.subtitle{
+.footer{
     font-family: 'Indie Flower', cursive;
     font-size: 14pt;
     color:black;
     text-decoration: none;
-    margin-left: 360px;
-    /* text-align: center; */
+    margin-left: 500px;
+    text-align: center;
 }
 .storytitle{
     font-family: 'Indie Flower', cursive;
     font-size: 16pt;
+    /* font-weight: bold; */
     color:black;
     text-decoration: underline;
     margin-left: 385px;
@@ -96,4 +97,8 @@
     margin-right: auto;
     width: 25%;
   }
+
+li {
+  list-style: none;
+}
   
