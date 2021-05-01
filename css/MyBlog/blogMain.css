@@ -31,12 +31,7 @@ body {
 }
 
 .blog_pictures {
-    width: 200px;
-    height: 200px;
-}
-
-.blog_large_pictures {
-    width: 250px;
+    width: 300px;
     height: 300px;
 }
 
