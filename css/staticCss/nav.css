@@ -9,6 +9,7 @@
     padding-left: 0.4em;
     padding-right: 0.4em;
     padding-bottom: 0.1em;
+    width: 12.5%;
     color: #000000;
     text-align: center;
     /*padding: 14px 16px;*/
@@ -17,8 +18,8 @@
 }
 
 .mainNav a:active {
-    background-color: #4CAF50;
-    color: black;
+    background-color: #F2D230;
+    color: white;
 }
 
 .home:hover {

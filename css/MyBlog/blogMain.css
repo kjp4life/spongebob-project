@@ -7,11 +7,17 @@ body {
     padding: 0;
     color:black;
     text-decoration: none;
+    background: linear-gradient( rgba(217, 11, 86, 0), rgba(217, 11, 86, 0.20), rgba(217, 11, 86, 1) );
     /* background-image: url(../images/minimalistic_background.png); */
     /* background-image: url(../images/minimalistic_background2.png); */
     /*background-image: url(../../images/minimalistic_background3.jpg);*/
     /*background-size: 100%;*/
     /*background-color: #ffffff;*/
+}
+
+
+.blog {
+    background: linear-gradient( rgba(217, 11, 86, 1), rgba(217, 11, 86, 0.0)); 
 }
 
 .header {

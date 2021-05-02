@@ -1,0 +1,24 @@
+body {
+    background: linear-gradient( rgba(242, 210, 48, 0), rgba(242, 210, 48, 0.20), rgba(242, 210, 48, 1) );
+  }
+  
+  .myFriends {
+    background: linear-gradient( rgba(242, 210, 48, 1), rgba(242, 210, 48, 0.0)); 
+  }
+
+  .text-block {
+    position: absolute;
+    top: 300px;
+    right: 60px;
+    background-color: clear;
+    color: black;
+    padding-left: 450px;
+    padding-right: 900px;
+  }
+  h1{
+    text-align:center; 
+  }
+  .img {
+    width: 100%;
+    height: auto;
+  }

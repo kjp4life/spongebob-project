@@ -7,11 +7,12 @@
     <link rel="stylesheet" type="text/css" href="css/staticCss/container.css">
     <link rel="stylesheet" type="text/css" href="css/staticCss/nav.css">
     <link rel="stylesheet" type="text/css" href="css/Home/Home.css">
+    <link rel="stylesheet" type="text/css" href="css/staticCss/footer.css">
     <title> Main Page1 </title>
   </head>
 
   <body>
-    <nav class="row mainNav">
+    <nav class="mainNav">
       <a class="home" href="home.htm">Home</a>
       <a class="about" href="spongebobaboutme.html">About Me</a>
       <a class="theKrustyKrab" href="krusty_krab.html">The Krusty Krab</a>
@@ -19,37 +20,52 @@
       <a class="hobbies" href="my_hobbies.htm">My Hobbies</a>
       <a class="blog" href="blog.html">My Blog</a>
     </nav>
-    <main >
-      <div class= "text-block">
-        <h1><p style='font-family: Comic Sans MS'> HELLO!</h1> </p>
-        <h2><p style='font-family: Comic Sans MS'>My name is Spongebob Squarepants. </p><h2>
-        <h2><p style='font-family: Comic Sans MS'>This is where you will learn all about myself, my friends,and much more about me! Feel free to look around. </p><h2>
-        <p>
-        <h2><p style='font-family: Comic Sans MS'>OH! DONT FORGET TO STOP AT THE KRUSTY KRAB FOR DELICIOUS KRABBY PATTIES ;)</p><h2>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/r9L4AseD-aA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <main class="container">
+      <div class="img-col">
+          <div class="img-row">
+            <img src="images/Plankton.jpg" alt="Plankton" width="175" height="175">
+            <img src="images/squidward.jpg" alt="Squidward" width="175" height="175">
+          </div>
+          <div class="img-row">
+            <img src="images/Patrick.jpg" alt="Patrick" width="175" height="175">
+            <img src="images/Krabs.jpg" alt="Krabs" width="175" height="175">
+          </div>
+          <div class="img-row">
+            <img src="images/sandy.jpg" alt="Sandy" width="175" height="175">
+            <img src="images/gary.jpg" alt="Gary" width="175" height="175">
+          </div>
+          <div class="img-row">
+            <img src="images/pear.jpg" alt="pearl" width="175" height="175">
+            <img src="images/Puff.jpg" alt="Mrs.Puff" width="175" height="175">
+          </div>
+          <div class="img-row">
+            <img src="images/karen.jpg" alt="karen" width="175" height="175">
+            <img src="images/lary.jpg" alt="Lary the Lobster" width="175" height="175">
+          </div>
       </div>
-      <ul>
-        <li>
-          <img src="images/Plankton.jpg" alt="Plankton" width="175" height="175">
-          <img src="images/squidward.jpg" alt="Squidward" width="175" height="175">
-        </li>
-        <li>
-          <img src="images/Patrick.jpg" alt="Patrick" width="175" height="175">
-          <img src="images/Krabs.jpg" alt="Krabs" width="175" height="175">
-        </li>
-        <li>
-          <img src="images/sandy.jpg" alt="Sandy" width="175" height="175">
-          <img src="images/gary.jpg" alt="Gary" width="175" height="175">
-        </li>
-        <li>
-          <img src="images/pear.jpg" alt="pearl" width="175" height="175">
-          <img src="images/Puff.jpg" alt="Mrs.Puff" width="175" height="175">
-        </li>
-        <li>
-          <img src="images/karen.jpg" alt="karen" width="175" height="175">
-          <img src="images/lary.jpg" alt="Lary the Lobster" width="175" height="175">
-        </li>
-      </ul>
+      <div>
+        <h1><p> HELLO!</h1> </p>
+        <h2><p>My name is Spongebob Squarepants. </p><h2>
+        <h2><p>This is where you will learn all about myself, my friends,and much more about me! Feel free to look around. </p><h2>
+        <p>
+        <h2><p>OH! DONT FORGET TO STOP AT THE KRUSTY KRAB FOR DELICIOUS KRABBY PATTIES ;)</p><h2>
+        
+        <div class="iframe">
+        <iframe class="responsive-iframe" width="560" height="315" src="https://www.youtube.com/embed/r9L4AseD-aA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
     </main>
+    <footer>
+      <section>
+        <div>
+          <h2 class="footer-header">Brought to you by Squarepants Inc. &#169;</h2>
+        </div>
+      </section>
+      <section class="footer-links">
+        <a href="https://spongebob.fandom.com/wiki/Encyclopedia_SpongeBobia">About</a> 
+        <a href="https://www.nick.com/shows/spongebob-squarepants">Help</a> 
+        <a href="https://pbs.twimg.com/media/D6Pq5rPXsAA5anD?format=jpg&name=small">Legal</a> 
+      </section>
+    </footer>
   </body>
 </html>
