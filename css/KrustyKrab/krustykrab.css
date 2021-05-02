@@ -1,0 +1,70 @@
+body {
+    box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient( rgba(109, 218, 242, 0), rgba(109, 218, 242, 0.20), rgba(109, 218, 242, 1) );
+}
+
+.theKrustyKrab {
+  background: linear-gradient( rgba(109, 218, 242, 1), rgba(109, 218, 242, 0.0)); 
+}
+
+  .text-block {
+    position: absolute;
+    top: 300px;
+    right: 60px;
+    background-color: clear;
+    color: black;
+    padding-left: 450px;
+    padding-right: 900px;
+  }
+
+
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  h1 {
+    font-size: 3.125em;
+    text-align: center;
+    word-break: break-all;
+  }
+
+  h2 {
+    font-size: 2.19em;
+    text-align: center;
+  }
+
+  .rowalt {
+    /* margin: 8px -16px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .rowalt,
+  .rowalt>.column {
+    padding: 15px;
+  }
+
+  .column {
+    float: left;
+    width: 31%;
+    margin: 0 0.5em 0 0.5em;
+    box-shadow: 0 4px 8px 0;
+	border-radius: 32px;
+    background: linear-gradient( rgba(242, 210, 48, 0.0), rgba(242, 210, 48, 0.20),  rgba(242, 210, 48, 1));
+  }
+
+  .rowalt:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .content {
+    height: 22em;
+    padding: 20px;
+  }

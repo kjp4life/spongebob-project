@@ -1,0 +1,108 @@
+body {
+    /* font-family: Arial, Helvetica, sans-serif; */
+	text-align: center;
+    background: linear-gradient( rgba(217, 117, 30, 0), rgba(217, 117, 30, 0.20), rgba(217, 117, 30, 1) );
+}
+  
+.hobbies {
+	background: linear-gradient( rgba(217, 117, 30, 1), rgba(217, 117, 30, 0.0)); 
+}
+
+
+main {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+
+section {
+	box-shadow: 0 4px 8px 0;
+	border-radius: 32px;
+	margin-bottom: 1em;
+}
+
+.one {
+	background-color: rgba(217, 11, 86, 0.55);
+ }
+.two {
+	background-color: rgba(217, 106, 167, 0.55);
+ }
+.three {
+	background-color: rgba(109, 218, 242, 0.55);
+ }
+.four {
+	background-color: rgba(242, 210, 48, 0.55);
+ }
+.five {
+	background-color: rgba(217, 117, 30, 0.55);
+ }
+
+.hobbyRow {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.hobbyRow img {
+	height: 250px;
+	width: 250px;
+	padding: 2rem;
+}
+
+/* h1{
+	text-align: center;
+	color:#f7e948;
+	font-size: 45px;
+	text-transform: uppercase;
+	-webkit-text-stroke: .3px black;
+	font-family: 'Lobster', cursive;
+}
+h2{
+	text-align: center;
+	color:#FFA7B4;
+	font-size: 40px;
+	-webkit-text-stroke: .3px black;
+	font-family: 'Lobster', cursive;
+}
+h3{
+	text-align: center;
+	color:#26B9C8;
+	font-size: 40px;
+	-webkit-text-stroke: .3px black;
+	font-family: 'Lobster', cursive;
+}
+h4{
+	text-align: center;
+	color:#b263f2;
+	font-size: 40px;
+	-webkit-text-stroke: .3px black;
+	font-family: 'Lobster', cursive;
+}
+h5{
+	text-align: center;
+	color:#f06043;
+	font-size: 40px;
+	-webkit-text-stroke: .3px black;
+	font-family: 'Lobster', cursive;
+}
+ol{
+	font-size: 20px;
+	text-align: center;
+	list-style-position: inside;
+	font-family: 'New Tegomin', serif;
+}
+.text{
+	font-size: 20px;
+	text-align: center;
+	font-family: 'New Tegomin', serif;
+	
+}
+img{
+	height:250px;
+	vertical-align: middle;
+	
+}
+p{
+	display:inline-block;
+} */

@@ -1,0 +1,48 @@
+.mainNav {
+    display: flex;
+    background-color: #ffffff;
+}
+
+.mainNav a {
+    display: block;
+    padding-top: 0.1em;
+    padding-left: 0.4em;
+    padding-right: 0.4em;
+    padding-bottom: 0.1em;
+    width: 12.5%;
+    color: #000000;
+    text-align: center;
+    /*padding: 14px 16px;*/
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.mainNav a:active {
+    background-color: #F2D230;
+    color: white;
+}
+
+.home:hover {
+    background-color: #D90B56;
+    color: white;
+}
+.about:hover {
+    background-color: #D96AA7;
+    color: white;
+}
+.theKrustyKrab:hover {
+    background-color: #6DDAF2;
+    color: white;
+}
+.myFriends:hover {
+    background-color: #F2D230;
+    color: white;
+}
+.hobbies:hover {
+    background-color: #D9751E;
+    color: white;
+}
+.blog:hover {
+    background-color: #D90B56;
+    color: white;
+}
